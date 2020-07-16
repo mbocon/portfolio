@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  color: white;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.header-h1 {
+  padding: 1em;
+  background-color: rgb(17, 165, 198);
+  color: whitesmoke;
+}
+
+.content {
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+
+a {
+  color: rgba(0,0,0,0.7);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(17, 165, 198);
+}
+
+.content-container {
+  padding: 2.5em;
+}
