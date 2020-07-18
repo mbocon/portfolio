@@ -5,7 +5,6 @@ import { createBrowserHistory } from 'history';
 import { Switch, Route, Router } from 'react-router';
 
 const routes = [
-   
     {
         path: '/',
         component: App,

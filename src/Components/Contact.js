@@ -1,19 +1,24 @@
 import React from 'react';
-import '../Styles/Contact.css';
 
 function Contact() {
 	return (
-		<div className='contact' id='contact'>
-			<h1 className='header-h1'>Contact</h1>
-			<div className="content-container">
-			<ul>
-			<li className='contact-list'><i className="devicon-github-plain icon contact-icon"></i><a href="https://github.com/mbocon" target="_blank" rel="noopener noreferrer">https://github.com/mbocon</a>
-			</li>
-			<li className='contact-list'><i className="devicon-linkedin-plain icon contact-icon"></i><a href="https://www.linkedin.com/in/mike-bocon/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/mike-bocon/</a>
-			</li>
-			<li className='contact-list'><i class="fas fa-envelope icon contact-icon"></i><a href="mailto:mikebocon@gmail.com">mikebocon@gmail.com</a></li>
-			</ul>
-			</div>
+		<div className='resume-section' id='contact' style={{ height: '100vh' }}>
+			<section className='resume-section'>
+				<div className='resume-section-content'>
+					<h2 class='mb-5'>Contact</h2>
+					<div className='social-icons'>
+						<a className='social-icon' href='https://www.linkedin.com/in/mike-bocon/' target="_blank" rel="noopener noreferrer">
+							<i className='fab fa-linkedin-in'></i>
+						</a>
+						<a className='social-icon' href='https://github.com/mbocon' target='_blank' rel="noopener noreferrer">
+							<i className='fab fa-github'></i>
+						</a>
+						<a className='social-icon' href="mailto:mikebocon@gmail.com">
+							<i className='fas fa-envelope'></i>
+						</a>
+					</div>
+				</div>
+			</section>
 		</div>
 	);
 }
