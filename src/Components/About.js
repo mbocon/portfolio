@@ -14,7 +14,7 @@ function About() {
                         <a href="mailto:mikebocon@gmail.com"> mikebocon@gmail.com</a>
                     </div>
                     <p className="lead mb-5">Completed a 24-week, 500-hour full-stack program conducted in a remote setting, providing experience with the latest front and back-end programming languages, tools, and methodologies. 
-                    HTML, CSS, SASS, JavaScript, jQuery, PostgreSQL, MongoDB, Ruby, Ruby on Rails, NodeJS, ReactJS, Express, EJS, Git, GitHub, and Agile/Scrum.</p>
+                    HTML, CSS, SASS, JavaScript, jQuery, PostgreSQL, MongoDB, Ruby, Ruby on Rails, NodeJS, ReactJS, Express, JSX, Git, GitHub, and Agile/Scrum.</p>
                 </div>
             </section>
 		</div>
