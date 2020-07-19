@@ -8,6 +8,27 @@ function About() {
 					<h1 className='mb-0'>
 						Mike
 						<span className='text-primary'> Bocon</span>
+						<h3 className='about-h3'>
+							<span className="software">S</span>
+							<span className="software">O</span>
+							<span className="software">F</span>
+							<span className="software">T</span>
+							<span className="software">W</span>
+							<span className="software">A</span>
+							<span className="software">R</span>
+							<span className="software">E</span>
+							<span className="software">-</span>
+							<span className="software">D</span>
+							<span className="software">E</span>
+							<span className="software">V</span>
+							<span className="software">E</span>
+							<span className="software">L</span>
+							<span className="software">O</span>
+							<span className="software">P</span>
+							<span className="software">E</span>
+							<span className="software">R</span>
+						
+						</h3>
 					</h1>
 
 					<div className='subheading mb-5'>
