@@ -12,6 +12,59 @@ code {
     monospace;
 }
 
+
+.about-h3 {
+}
+
+.software {
+  font-weight: bolder;
+  letter-spacing: 1px;
+  animation: light 3s infinite;
+}
+
+@keyframes light{
+  0%, 20% {
+    color: #f0a00b;
+    text-shadow: 0 0 10px #f0a00b;
+  }
+  40% {
+    color: #40f00b;
+    text-shadow: 0 0 10px #40f00b;
+  }
+  60% {
+    color: #0b94f0;
+    text-shadow: 0 0 10px #0b94f0;
+  }
+  80% {
+    color: #f00b89;
+    text-shadow: 0 0 10px #f00b89;
+  }
+  100% {
+    color: #38ffa2;
+    text-shadow: 0 0 10px #38ffa2;
+  }
+}
+
+.software:nth-child(1){animation-delay: .2s;}
+.software:nth-child(2){animation-delay: .4s;}
+.software:nth-child(3){animation-delay: .8s;}
+.software:nth-child(4){animation-delay: 1s;}
+.software:nth-child(5){animation-delay: 1.2s;}
+.software:nth-child(6){animation-delay: 1.4s;}
+.software:nth-child(7){animation-delay: 1.6s;}
+.software:nth-child(8){animation-delay: 1.8s;}
+.software:nth-child(9){animation-delay: 2s;}
+.software:nth-child(10){animation-delay: 2.2s;}
+.software:nth-child(11){animation-delay: 2.4s;}
+.software:nth-child(12){animation-delay: 2.6s;}
+.software:nth-child(13){animation-delay: 2.8s;}
+.software:nth-child(14){animation-delay: 3s;}
+.software:nth-child(15){animation-delay: 3.2s;}
+.software:nth-child(16){animation-delay: 3.4s;}
+.software:nth-child(17){animation-delay: 3.6s;}
+.software:nth-child(18){animation-delay: 3.8s;}
+
+
 /*------------------------
 => Contact Page
 --------------------------*/
