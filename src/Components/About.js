@@ -33,7 +33,7 @@ function About() {
 
 					<div className='subheading mb-5'>
 						165 Fraser Ave · Lanai City, HI 96763 · (808) 281-5545 ·
-						<a href='mailto:mikebocon@gmail.com'> mikebocon@gmail.com</a>
+						<a href='mailto:mikebocon@gmail.com' rel='noopener noreferrer'> mikebocon@gmail.com</a>
 					</div>
 					<p className='lead mb-5'>
 						Completed a 24-week, 500-hour full-stack program conducted in a remote setting, providing experience with the
