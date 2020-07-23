@@ -302,6 +302,7 @@ code {
   font-size: 5em;
   margin-top: .5em;
 }
+
 .card-container {
   display: flex;
   justify-content: space-evenly;
@@ -347,6 +348,7 @@ code {
   transform: rotateY(180deg);
   text-align: left;
   padding: 1em;
+  color: black;
 }
 
 .card-description {
@@ -354,13 +356,40 @@ code {
   font-size: 1.25em;
 }
 
+.project-card {
+  margin-top: 0em;
+  font-size: 1em;
+}
+
+.project-list {
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 1em;
+  padding-bottom: -1em;
+}
+
+.project-icon {
+  margin-right: 0.15em;
+  font-size: 1.5em;
+}
+
+.project-link {
+  margin: .25em;
+}
+
 .card-link {
   color: blue;
   font-size: 1.15em;
+  margin-right: 1em;
 }
 
 .card-link:hover {
   color:rgb(62, 147, 252);
+}
+
+.app-img {
+  height: 200px;
+  max-width: 50%;
 }
 
 
