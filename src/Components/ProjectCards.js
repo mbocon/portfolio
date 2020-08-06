@@ -79,7 +79,7 @@ export default class ProjectCard extends React.Component {
 							</a>
 						</li>
 						<li className='list-inline-item project-link'>
-							<a href='hhttps://github.com/mbocon/skilliam' target='_blank' rel='noopener noreferrer' className='card-link'>
+							<a href='https://github.com/mbocon/skilliam' target='_blank' rel='noopener noreferrer' className='card-link'>
 								<i className='devicon-github-plain project-icon' />
 								Github Repo
 							</a>
