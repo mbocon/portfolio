@@ -10536,3 +10536,9 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+@media (min-width: 300px) {
+  .projects {
+    height: auto!important;
+  }
+}
