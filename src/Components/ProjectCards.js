@@ -1,5 +1,6 @@
 import React from 'react';
 import img from '../img/kaizen-app.png';
+import img2 from '../img/skilliam.png'
 
 export default class ProjectCard extends React.Component {
 	render() {
@@ -42,7 +43,7 @@ export default class ProjectCard extends React.Component {
 								</a>
                             </li>
                             <li className='list-inline-item project-link'>
-								<a href='https://github.com/mbocon/kaizen-app-api' target='_blank' rel='noopener noreferrer' className='card-link'>
+								<a href='https://github.com/mbocon/kaizen-app-client' target='_blank' rel='noopener noreferrer' className='card-link'>
 									<i className='devicon-github-plain project-icon' />
 									Front-End Repo
 								</a>
@@ -50,6 +51,42 @@ export default class ProjectCard extends React.Component {
 						</div>
 					</div>
 				</div>
+				<div class='flip-card'>
+				<div class='flip-card-inner'>
+					<div class='flip-card-front'>
+						<h3>Skilliam App</h3>
+						<img className='card-img app-img' src={img2} alt='App-Img' />
+					</div>
+					<div class='flip-card-back'>
+						<div className='card-description project-card'>
+							A full-stack app built with the MERN stack.
+							<ul className='project-list'>
+								<li>
+									<i className='fa fa-check project-check-icon' /> Full CRUD capabilities
+								</li>
+								<li>
+									<i className='fa fa-check project-check-icon' /> User Authentication with JWT
+								</li>
+								<li>
+									<i className='fa fa-check project-check-icon' /> Password Encryption
+								</li>
+							</ul>
+						</div>
+						<li className='list-inline-item project-link'>
+							<a href='https://skilliam.herokuapp.com/' target='_blank' rel='noopener noreferrer' className='card-link'>
+								<i className='fa fa-globe project-icon' />
+								See live
+							</a>
+						</li>
+						<li className='list-inline-item project-link'>
+							<a href='hhttps://github.com/mbocon/skilliam' target='_blank' rel='noopener noreferrer' className='card-link'>
+								<i className='devicon-github-plain project-icon' />
+								Github Repo
+							</a>
+						</li>
+					</div>
+				</div>
+			</div>
 				<div class='flip-card'>
 					<div class='flip-card-inner'>
 						<div class='flip-card-front'>
