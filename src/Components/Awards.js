@@ -7,37 +7,37 @@ function Awards() {
 				<div className='resume-section-content'>
 					<h2 className='mb-5'>Awards</h2>
 					<ul className='fa-ul mb-0'>
-						<li>
+						<li className='award-li'>
 							<span className='fa-li'>
 								<i className='fas fa-trophy text-warning'></i>
 							</span>
 							2013 Maui Police Department - District II - Officer of the Year - Nominee
 						</li>
-						<li>
+						<li className='award-li'>
 							<span className='fa-li'>
 								<i className='fas fa-trophy text-warning'></i>
 							</span>
 							2013 County Of Maui - District II - Employee of the Year - 2nd Place
 						</li>
-						<li>
+						<li className='award-li'>
 							<span className='fa-li'>
 								<i className='fas fa-trophy text-warning'></i>
 							</span>
 							2014 Maui Police Department - District II - Officer of the Year - 1st Place
 						</li>
-						<li>
+						<li className='award-li'>
 							<span className='fa-li'>
 								<i className='fas fa-trophy text-warning'></i>
 							</span>
 							2014 County Of Maui - District II - Employee of the Year - 1st Place
 						</li>
-						<li>
+						<li className='award-li'>
 							<span className='fa-li'>
 								<i className='fas fa-trophy text-warning'></i>
 							</span>
 							2015 Maui Police Department - District II - Officer of the Year - 1st Place
 						</li>
-						<li>
+						<li className='award-li'>
 							<span className='fa-li'>
 								<i className='fas fa-trophy text-warning'></i>
 							</span>

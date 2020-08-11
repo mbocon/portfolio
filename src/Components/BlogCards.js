@@ -31,6 +31,30 @@ export default class Card extends React.Component {
 				<div class='flip-card'>
 					<div class='flip-card-inner'>
 						<div class='flip-card-front'>
+							<h3>Using moment for a time-stamp</h3>
+							<img
+								className='card-img'
+								src={'https://miro.medium.com/max/1050/1*MtK-wpSdQ9WKEFIZE9IEyw.png'}
+								alt='Article-Img'
+							/>
+						</div>
+						<div class='flip-card-back'>
+							<p className='card-description'>
+								In this tutorial I demonstrate how to incorporate a posted x-amount of time ago feature
+							</p>
+							<a
+								href='https://medium.com/@mikebocon/using-moment-with-the-mern-stack-5290e2e914fe'
+								target='_blank'
+								rel='noopener noreferrer'
+								className='card-link'>
+								Go to Medium Article
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class='flip-card'>
+					<div class='flip-card-inner'>
+						<div class='flip-card-front'>
 							<h3>Have a request</h3>
 							<i class='fas fa-question request-icon'></i>
 						</div>
