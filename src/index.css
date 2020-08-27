@@ -18,6 +18,10 @@ code {
   animation: light 3.6s infinite;
 }
 
+.rainbow-img {
+  height: 40px;
+}
+
 @keyframes light {
   0%,
   20% {
@@ -2387,7 +2391,7 @@ pre code {
     width: 100%;
   }
   .contact-title {
-    margin-left: .5em;
+    margin-left: .7em;
   }
 }
 @media (max-width: 767.98px) {

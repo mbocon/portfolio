@@ -55,6 +55,30 @@ export default class Card extends React.Component {
 				<div class='flip-card'>
 					<div class='flip-card-inner'>
 						<div class='flip-card-front'>
+							<h3>Want to see how I built this Rainbow Animation?</h3>
+							<img
+								className='card-img rainbow-img'
+								src={'https://miro.medium.com/max/368/1*ZipcniKz4fnqSDee1vb-7Q.gif'}
+								alt='Article-Img'
+							/>
+						</div>
+						<div class='flip-card-back'>
+							<p className='card-description'>
+								In this tutorial I demonstrate how I created this cool rainbow animation!
+							</p>
+							<a
+								href='https://medium.com/@mikebocon/rainbow-text-animation-w-css-268fd7059002'
+								target='_blank'
+								rel='noopener noreferrer'
+								className='card-link'>
+								Go to Medium Article
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class='flip-card'>
+					<div class='flip-card-inner'>
+						<div class='flip-card-front'>
 							<h3>Have a request</h3>
 							<i class='fas fa-question request-icon'></i>
 						</div>

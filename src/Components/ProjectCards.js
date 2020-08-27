@@ -1,6 +1,7 @@
 import React from 'react';
 import img from '../img/kaizen-app.png';
-import img2 from '../img/skilliam.png'
+import img2 from '../img/skilliam.png';
+import img3 from '../img/asmd.png';
 
 export default class ProjectCard extends React.Component {
 	render() {
@@ -80,6 +81,42 @@ export default class ProjectCard extends React.Component {
 						</li>
 						<li className='list-inline-item project-link'>
 							<a href='https://github.com/mbocon/skilliam' target='_blank' rel='noopener noreferrer' className='card-link'>
+								<i className='devicon-github-plain project-icon' />
+								Github Repo
+							</a>
+						</li>
+					</div>
+				</div>
+			</div>
+			<div class='flip-card'>
+				<div class='flip-card-inner'>
+					<div class='flip-card-front'>
+						<h3>ASMD App</h3>
+						<img className='card-img app-img' src={img3} alt='App-Img' />
+					</div>
+					<div class='flip-card-back'>
+						<div className='card-description project-card'>
+							Practice basic math skills with digital flashcards!
+							<ul className='project-list'>
+								<li>
+									<i className='fa fa-check project-check-icon' /> Add, Subtract, Multiply, Divide
+								</li>
+								<li>
+									<i className='fa fa-check project-check-icon' /> Built-in number ranges to use
+								</li>
+								<li>
+									<i className='fa fa-check project-check-icon' /> Create your own custom number range
+								</li>
+							</ul>
+						</div>
+						<li className='list-inline-item project-link'>
+							<a href='https://asmdmath.herokuapp.com/' target='_blank' rel='noopener noreferrer' className='card-link'>
+								<i className='fa fa-globe project-icon' />
+								See live
+							</a>
+						</li>
+						<li className='list-inline-item project-link'>
+							<a href='https://github.com/mbocon/ASMD' target='_blank' rel='noopener noreferrer' className='card-link'>
 								<i className='devicon-github-plain project-icon' />
 								Github Repo
 							</a>
