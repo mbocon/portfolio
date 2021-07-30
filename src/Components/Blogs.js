@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './BlogCards';
+import BlogCards from './BlogCards';
 
 function Blogs() {
 	return (
@@ -7,7 +7,7 @@ function Blogs() {
 			<section className='resume-section' id='about'>
 				<div className='resume-section-content'>
 					<h2 className='mb-0'>Blogs</h2>
-					<Card />
+					<BlogCards />
 				</div>
 			</section>
 		</div>

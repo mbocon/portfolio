@@ -64,14 +64,14 @@ export default class Card extends React.Component {
 						</div>
 						<div class='flip-card-back'>
 							<p className='card-description'>
-								In this tutorial I demonstrate how I created this cool rainbow animation!
+								I explain how I created this cool rainbow animation on CodePen!
 							</p>
 							<a
-								href='https://medium.com/@mikebocon/rainbow-text-animation-w-css-268fd7059002'
+								href='https://codepen.io/mbocon/pen/GRZJRyo'
 								target='_blank'
 								rel='noopener noreferrer'
 								className='card-link'>
-								Go to Medium Article
+								Get the code!
 							</a>
 						</div>
 					</div>
