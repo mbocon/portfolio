@@ -8,7 +8,7 @@ export default function About() {
                <h1 className="mb-0">
                   Mike
                   <span className="text-primary"> Bocon</span>
-                  <h3 className="about-h3">
+                  <div className="animated-div">
                      <span className="software">S</span>
                      <span className="software">O</span>
                      <span className="software">F</span>
@@ -27,7 +27,7 @@ export default function About() {
                      <span className="software">P</span>
                      <span className="software">E</span>
                      <span className="software">R</span>
-                  </h3>
+                  </div>
                </h1>
 
                <div className="subheading mb-5">

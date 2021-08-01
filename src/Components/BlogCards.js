@@ -76,20 +76,6 @@ export default class Card extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div class='flip-card'>
-					<div class='flip-card-inner'>
-						<div class='flip-card-front'>
-							<h3>Have a request</h3>
-							<i class='fas fa-question request-icon'></i>
-						</div>
-						<div class='flip-card-back'>
-							<p className='card-description'>Submit your request and I'll write a special article just for you!</p>
-							<a href='#contact' className='card-link'>
-								Click here!
-							</a>
-						</div>
-					</div>
-				</div>
 			</div>
 		);
 	}
