@@ -678,6 +678,14 @@ h6,
    margin-right: 0.5rem;
 }
 
+.tooltip:hover {
+   color: rgb(65, 65, 65);
+}
+
+.tooltip {
+   margin-top: 2rem;
+}
+
 .img-fluid {
    max-width: 100%;
    height: auto;
@@ -793,6 +801,7 @@ h6,
 .navbar-toggler:hover,
 .navbar-toggler:focus {
    text-decoration: none;
+   cursor: pointer;
 }
 
 .navbar-toggler-icon {

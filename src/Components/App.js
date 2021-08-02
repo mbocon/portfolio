@@ -4,7 +4,7 @@ import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
 import Awards from './Awards';
-import Blogs from './Blogs';
+import Tutorials from './Tutorials';
 import Contact from './Contact';
 import '../../src/index.css';
 
@@ -17,7 +17,7 @@ function App() {
 				<Skills />
 				<Projects />
 				<Awards />
-				<Blogs />
+				<Tutorials />
 				<Contact />
 			</div>
 		</div>
