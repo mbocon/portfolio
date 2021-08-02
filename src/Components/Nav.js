@@ -6,6 +6,9 @@ function Nav() {
 	function closeNav() {
 		$('.navbar-collapse').removeClass('show');
 	}
+
+	
+
 	return (
 		<nav className='navbar navbar-expand-lg navbar-dark bg-primary fixed-top' id='sideNav'>
 			<a className='navbar-brand js-scroll-trigger' href='#root'>
@@ -47,8 +50,8 @@ function Nav() {
 						</a>
 					</li>
 					<li className='nav-item'>
-						<a className='nav-link js-scroll-trigger' href='#blogs'>
-							Blogs
+						<a className='nav-link js-scroll-trigger' href='#tutorials'>
+							tutorials
 						</a>
 					</li>
 					<li className='nav-item'>

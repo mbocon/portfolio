@@ -1,17 +1,17 @@
 import React from 'react';
-import BlogCards from './BlogCards';
+import Cards from './Cards';
 
-function Blogs() {
+export default function Tutorials() {
 	return (
-		<div className='blogs' id='blogs'>
+		<div className='tutorials' id='tutorials'>
 			<section className='resume-section' id='about'>
 				<div className='resume-section-content'>
-					<h2 className='mb-0'>Blogs</h2>
-					<BlogCards />
+					<h2 className='mb-0'>Tutorials</h2>
+					<Cards />
 				</div>
 			</section>
 		</div>
 	);
 }
 
-export default Blogs;
+
