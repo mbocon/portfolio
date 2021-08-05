@@ -23,7 +23,8 @@ ReactDOM.render(
                <Route
                   path={route.path}
                   component={route.component}
-                  key={route.name}></Route>
+                  key={route.name}>
+               </Route>
             );
          })}
       </Switch>
