@@ -33,6 +33,12 @@ class Contact extends Component {
          message: "",
          messageSent: true,
       });
+
+      setTimeout(() => {
+         this.setState({
+            messageSent: false,
+         });
+      }, 4000);
    };
 
    render() {
@@ -45,18 +51,18 @@ class Contact extends Component {
                   <a
                      href="https://calendly.com/mikebocon/experiment1et"
                      target="_blank"
-                     rel="noopener noreferrer">
+                     rel="noopener noreferrer"
+                  >
                      Calendly
-                  </a>
-				  {" "}or message me below
+                  </a>{" "}
+                  or message me below
                </h4>
-			   
             </div>
             <div className="wrapper-contact">
                <div className="contact ">
                   {this.state.messageSent ? (
                      <div className="alert animated fadeInUp">
-                        Your Message has been sent
+                        Your message has been sent!
                      </div>
                   ) : (
                      ""
@@ -65,7 +71,8 @@ class Contact extends Component {
                   <form
                      onSubmit={this.handleSubmit}
                      className="animated delay-1s fadeInRight"
-                     id="contactForm">
+                     id="contactForm"
+                  >
                      <p>
                         <input
                            name="name"
@@ -107,9 +114,10 @@ class Contact extends Component {
                            placeholder="Message"
                            value={this.state.message}
                            onChange={this.handleChange}
-                           rows="4"
+                           rows="10"
                            id="form-message"
-                           required></textarea>
+                           required
+                        ></textarea>
                      </p>
                      <br />
                      <p id="btn-form">
