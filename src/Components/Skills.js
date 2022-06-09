@@ -11,82 +11,82 @@ function Skills() {
                </div>
                <ul className="list-inline dev-icons">
                   <li className="list-inline-item">
-                     <i className="devicon-html5-plain tooltip"  data-toggle="tooltip"
+                     <i className="devicon-html5-plain tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="HTML5"></i>
                   </li>
                   <li className="list-inline-item">
-                     <i className="devicon-css3-plain tooltip"  data-toggle="tooltip"
+                     <i className="devicon-css3-plain tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="CSS3"></i>
                   </li>
                   <li className="list-inline-item">
-                     <i className="devicon-bootstrap-plain tooltip"  data-toggle="tooltip"
+                     <i className="devicon-bootstrap-plain tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="Bootstrap"></i>
                   </li>
                   <li className="list-inline-item">
-                     <i className="fab fa-font-awesome-flag tooltip"  data-toggle="tooltip"
+                     <i className="fab fa-font-awesome-flag tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="FontAwesome"></i>
                   </li>
                   <li className="list-inline-item">
-                     <i className="devicon-sass-original tooltip"  data-toggle="tooltip"
+                     <i className="devicon-sass-original tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="SASS"></i>
                   </li>
                   <li className="list-inline-item">
-                     <i className="devicon-devicon-plain tooltip"  data-toggle="tooltip"
+                     <i className="devicon-devicon-plain tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="DevIcon"></i>
                   </li>
                   <li className="list-inline-item">
-                     <i className="devicon-javascript-plain tooltip"  data-toggle="tooltip"
+                     <i className="devicon-javascript-plain tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="Django"></i>
                   </li>
                   <li className="list-inline-item">
-                     <i className="devicon-jquery-plain tooltip"  data-toggle="tooltip"
+                     <i className="devicon-jquery-plain tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="jQuery"></i>
                   </li>
                   <li className="list-inline-item">
-                     <i className="devicon-react-original tooltip"  data-toggle="tooltip"
+                     <i className="devicon-react-original tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="React"></i>
                   </li>
                   <li className="list-inline-item">
-                     <i className="devicon-ruby-plain tooltip"  data-toggle="tooltip"
+                     <i className="devicon-ruby-plain tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="Ruby"></i>
                   </li>
                   <li className="list-inline-item">
-                     <i className="devicon-rails-plain tooltip"  data-toggle="tooltip"
+                     <i className="devicon-rails-plain tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="Rails"></i>
                   </li>
                   <li className="list-inline-item">
-                     <i className="devicon-nodejs-plain tooltip"  data-toggle="tooltip"
+                     <i className="devicon-nodejs-plain tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="NodeJS"></i>
                   </li>
                   <li className="list-inline-item">
-                     <i className="devicon-express-original tooltip"  data-toggle="tooltip"
+                     <i className="devicon-express-original tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="Express"></i>
                   </li>
                   <li className="list-inline-item">
-                     <i className="devicon-mongodb-plain tooltip"  data-toggle="tooltip"
+                     <i className="devicon-mongodb-plain tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="MongoDB"></i>
                   </li>
                   <li className="list-inline-item">
-                     <i className="devicon-postgresql-plain tooltip"  data-toggle="tooltip"
+                     <i className="devicon-postgresql-plain tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="PostgreSQL"></i>
                   </li>
                   <li className="list-inline-item">
-                     <i className="devicon-git-plain tooltip"  data-toggle="tooltip"
+                     <i className="devicon-git-plain tooltip" data-toggle="tooltip"
                         data-placement="top"
                         title="Git"></i>
                   </li>

@@ -20,7 +20,7 @@ function App() {
 				<Tutorials />
 				<Contact />
 			</div>
-			
+
 		</div>
 	);
 }
